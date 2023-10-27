@@ -16,15 +16,11 @@ body {
 
 .column {
     width: 19rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     /* important!!! */
     overflow: hidden;
     box-shadow: rgba(50,50,50, 0.25) 0 2x 5px -1px, 
     rgba(0,0,0, 0.3) 0 1px 3px -1px;
     border-radius: 0.9rem;
-    background-color: rgba(211, 211, 211, 0.4);
     margin: 1.5rem;
 }
 
@@ -50,22 +46,43 @@ body {
 }
 
 .task-container {
-    width: 18rem;
-    height: 10rem;
+    width: 19rem;
+    height: 12rem;
+    background-color: rgba(211, 211, 211, 0.2);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: white;
-    color: darkgrey;
-    /* color: slategrey; */
-    font-size: 1.1em;
-    margin: 0.5rem 0;
-    border-radius: 0.9rem;
-    
+    align-items: center; 
 }
-.task-container img {
-    width: 5rem;
+
+.task {
+    width: 18rem;
     height: 5rem;
-    border-radius: 50%;
-    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    /* color: darkgrey; */
+    color: rgba(0,0,0, 0.5);
+    background-color: white;
+    box-shadow: rgba(50,50,50, 0.25) 0 2x 5px -1px, 
+    rgba(0,0,0, 0.3) 0 1px 3px -1px;
+    border-radius: 0.9rem;
+    margin: 0.3rem ;
 }
+
+.task h4 {
+    margin: 0;
+    padding: 0.2rem;
+}
+
+.task p {
+    margin: 0;
+    font-size: 0.8em;
+    padding: 0.2rem;
+}
+
+.image-container img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    margin: 0.5rem
+}
+/* gdyby obrazek był prostokątny, wtedy trzeba rozdzielić img od div i dac img width:100% */
