@@ -2,11 +2,14 @@
 
 ## 👛 What's it about?
 
-In progress :) The bigest project I've made so far, with @media and @keyframes. Love it!
+Using drag events I tried creating 3 lists with tasks, that should have been done "by yesterday"
 
 ## 👛 First look 
 
+Solid first list
 ![first page](./img/screen_1.png)
+
+and then we can grab individual task
 ![second page](./img/screen_2.png)
 
 ## 👛 Technologies
@@ -16,5 +19,5 @@ In progress :) The bigest project I've made so far, with @media and @keyframes. 
 + JavaScript
 
 ## 👛 Inspiration
-This portfolio is part of an amazing Full Stack Developer Course created by  ♥ Ania Kubow ♥. Love this women, her sense of humor and ability to explain hard, code-things in a way that I finally understand. 🏆
+This small project is part of an amazing Full Stack Developer Course created by  ♥ Ania Kubow ♥. Love this women, her sense of humor and ability to explain hard, code-things in a way that I finally understand. 🏆
 You can check this course [here](https://www.codewithania.com/about) and I absolutely encourage You to visit her [YouTube](https://www.youtube.com/@AniaKubow) channel 💕.
