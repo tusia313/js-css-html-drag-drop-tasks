@@ -4,56 +4,68 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(251, 217, 251, 0.3);
-    /* font-family: 'Comfortaa', sans-serif; */
-    font-family: 'Source Code Pro', monospace;
-    color: white;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.8em;
+    background-color: rgba(251, 217, 251, 0.2);
+    /* font-family: 'Comfortaa', sans-serif; */
+    font-family: 'Source Code Pro', monospace;
+    color: white;
 }
 
 .column {
+    width: 19rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    /* important!!! */
+    overflow: hidden;
+    box-shadow: rgba(50,50,50, 0.25) 0 2x 5px -1px, 
+    rgba(0,0,0, 0.3) 0 1px 3px -1px;
     border-radius: 0.9rem;
-    background-color: aliceblue;
-    padding: 0.5rem;
-    margin: 0 0.5rem;
+    background-color: rgba(211, 211, 211, 0.4);
+    margin: 1.5rem;
 }
 
 .task-title {
-    border-radius: 0.9rem 0.9rem 0 0;
-    padding: 0.5rem;
+    width: 19rem;
+}
+
+.task-title h2 {
+    margin: 0;
+    padding: 0.8rem;
 }
 
 #title-1 {
-    background-color: rgba(251, 0, 255, 0.9);
-    margin: 0;  
+    background-color: rgba(251, 0, 255, 0.9);  
 }
 
 #title-2 {
-    background-color: rgba(251, 191, 10, 0.9);
-    margin: 0;  
+    background-color: rgba(251, 200, 0, 1); 
 }
 
 #title-3  {
-    background-color: rgba(251, 67, 20, 0.9);
-    margin: 0;  
+    background-color: rgba(251, 67, 20, 0.9); 
 }
 
 .task-container {
+    width: 18rem;
+    height: 10rem;
     display: flex;
-    background-color: rgba(211, 211, 211, 0.1);
-    color: slategrey;
-    padding: 0.5rem;
-    border-radius: 0.9rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: darkgrey;
+    /* color: slategrey; */
     font-size: 1.1em;
+    margin: 0.5rem 0;
+    border-radius: 0.9rem;
+    
 }
 .task-container img {
     width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     margin-right: 0.5rem;
 }
