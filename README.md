@@ -19,4 +19,4 @@ and then we can grab individual task
 + JavaScript
 
 ## 👛 Inspiration
-This small project is part of an amazing Full Stack Developer Course created by  ♥ Ania Kubow ♥. Love this women, her sense of humor and ability to explain hard, code-things in a way that I finally understand. 🏆 I absolutely encourage You to visit her [YouTube](https://www.youtube.com/@AniaKubow) channel 💕.
+This small project is part of an amazing Full Stack Developer Course created by  ♥ Ania Kubow ♥. Love this women, her sense of humor and ability to explain hard, code-things in a way that I finally understand. 🏆 I absolutely encourage You to visit her [YouTube](https://www.youtube.com/@AniaKubow) channel .
